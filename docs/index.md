@@ -1,73 +1,53 @@
 ---
-# 布局模式：首页
-layout: home
-
-# 1. 顶部 Hero 区域 (最显眼的大标题)
-hero:
-  name: "Project Name"
-  text: "项目复盘与技术沉淀"
-  tagline: "从零开始构建，记录开发过程中的每一个踩坑与高光时刻。"
-  
-  # 这里的图片可以换成你自己的 logo，或者直接用 emoji 代替
-  image:
-    src: https://vitepress.dev/vitepress-logo-large.webp
-    alt: 项目Logo
-
-  # 两个核心按钮
-  actions:
-    - theme: brand
-      text: 🚀 开始阅读
-      link: /guide/getting-started
-    - theme: alt
-      text: 🐙 GitHub 源码
-      link: https://github.com/你的用户名/你的仓库名
-
-# 2. 特性网格区域 (即使不写代码，这里也能配出漂亮的九宫格)
-features:
-  - icon: 💡
-    title: 项目背景
-    details: 为什么要做这个项目？解决了什么痛点？这里记录最初的灵感与需求分析。
-  - icon: 🛠️
-    title: 技术栈
-    details: Vue 3 + VitePress + GitHub Actions。零成本部署，极致的文档体验。
-  - icon: 🧩
-    title: 核心模块
-    details: 详细拆解系统的各个功能模块，从前端组件到后端逻辑的完整复盘。
-  - icon: 🐞
-    title: 踩坑记录
-    details: 那些年我们修过的 Bug。记录开发过程中遇到的难题与最终解决方案。
-  - icon: ⚡
-    title: 性能优化
-    details: 如何让项目跑得更快？记录加载速度优化与代码重构的心得。
-  - icon: 📝
-    title: 持续更新
-    details: 文档将随着项目迭代长期维护，欢迎订阅关注最新的开发动态。
-
+# 布局模式：文档
+layout: doc
 ---
 
-<div style="text-align: center; margin-top: 40px;">
+# 个人博客文档站点
 
-## 🎯 关于本站
+欢迎来到 lccong 的个人博客文档站点！这里收录了我的技术笔记、项目经验和学习心得。
 
-这是一个纯静态的文档站点，用于记录我个人项目的全生命周期。
-这里没有复杂的废话，只有**真实的开发经验**和**可复用的代码片段**。
+## 📖 关于本站
 
-> "好记性不如烂笔头，把代码写成文档，是程序员进阶的必经之路。"
+这是一个基于 VitePress 和 UnoCSS 构建的个人技术博客文档站点，主要用于：
 
-</div>
+- 记录项目开发经验和技术沉淀
+- 分享前端开发相关的知识和技巧
+- 展示个人项目成果
+- 提供可复用的代码和解决方案
 
-### 📚 快速导航
+## 🚀 技术栈
 
-- **[新手入门](/guide/getting-started)**：如何运行本项目？
-- **[架构设计](/guide/architecture)**：系统是如何搭建的？
-- **[部署指南](/guide/deploy)**：如何把项目发布到线上？
+- **框架**: Vue 3 + VitePress
+- **样式**: UnoCSS
+- **部署**: GitHub Pages
+- **CI/CD**: GitHub Actions
 
-<br>
-<hr>
-<br>
+## 📚 快速导航
 
-<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
-  <span>By <b>你的名字</b></span>
-  <span>|</span>
-  <span>2024 Project Review</span>
-</div>
+使用左侧菜单栏可以浏览本站的所有内容，主要包括以下几个部分：
+
+### 指南
+- **入门**: 了解本站的基本信息和使用方法
+- **简介**: 站点的详细介绍和使用场景
+
+### 配置
+- **配置首页**: 站点配置相关的文档
+- **UnoCSS配置**: 关于UnoCSS的使用和配置
+
+### 项目
+- **大屏项目**: 大屏可视化项目的介绍和经验分享
+
+## 🤝 联系与合作
+
+如果您有任何问题、建议或者合作意向，欢迎通过以下方式联系我：
+
+- **GitHub**: [https://github.com/sfxcode/vitepress-blog-starter](https://github.com/sfxcode/vitepress-blog-starter)
+
+## 🔄 更新日志
+
+站点内容将持续更新，敬请关注最新的技术分享和项目动态！
+
+> 最后更新时间：2024年
+
+<!-- 文档内容结束 -->
