@@ -19,7 +19,8 @@ export default () => {
   function folderDir(name: string): string {
     // @ts-expect-error: import.meta is supported
     const dirname = path.dirname(fileURLToPath(import.meta.url))
-    return path.resolve(dirname, `../../../blog/${name}`)
+    // 指向文档根目录，避免查找不存在的blog目录
+    return path.resolve(dirname, `../../../${name}`)
   }
 
   return { folderDir, readFrontMatter }

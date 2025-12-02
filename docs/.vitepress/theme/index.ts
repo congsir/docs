@@ -8,6 +8,7 @@ import PostIcon from './components/blog/PostIcon.vue'
 import Posts from './components/blog/Posts.vue'
 import Feature from './components/uno/Feature.vue'
 import 'uno.css'
+import './style.css'
 
 export default {
   ...DefaultTheme,

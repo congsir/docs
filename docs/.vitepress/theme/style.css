@@ -1,0 +1,10 @@
+.VPNavBar.has-sidebar .title, .VPSidebar {
+  padding-left: 1rem !important;
+  width: auto !important;
+}
+
+@media (min-width: 1440px) {
+    .VPNavBar.has-sidebar .content {
+        padding-right: 32px !important;
+    }
+}

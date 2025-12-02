@@ -42,12 +42,12 @@ layout: doc
 
 如果您有任何问题、建议或者合作意向，欢迎通过以下方式联系我：
 
-- **GitHub**: [https://github.com/sfxcode/vitepress-blog-starter](https://github.com/sfxcode/vitepress-blog-starter)
+- **GitHub**: [https://github.com/congsir/docs](https://github.com/congsir/docs)
 
 ## 🔄 更新日志
 
 站点内容将持续更新，敬请关注最新的技术分享和项目动态！
 
-> 最后更新时间：2024年
+> 最后更新时间：2025年12月2日
 
 <!-- 文档内容结束 -->
